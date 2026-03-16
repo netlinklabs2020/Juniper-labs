@@ -8,7 +8,7 @@ topology:
     kind: juniper_vjunosswitch
   kinds:
     juniper_vjunosswitch:
-      image: aninchat/vjunos-switch:23.4R2
+      image: netlinklabs2020/vjunos-switch:23.4R2
       startup-config: configs/__clabNodeName__.txt
     linux:
       image: ghcr.io/srl-labs/network-multitool
