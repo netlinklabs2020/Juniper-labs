@@ -32,10 +32,7 @@ topology:
       kind: linux
       exec:
         - bash base-configs/s3.sh
-    s4:
-      kind: linux
-      exec:
-        - bash base-configs/s4.sh
+
   links:
     - endpoints: ["leaf1:eth1", "spine1:eth1"]
     - endpoints: ["leaf1:eth2", "spine2:eth1"]
